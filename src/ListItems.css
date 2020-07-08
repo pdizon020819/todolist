@@ -1,0 +1,46 @@
+.list{
+    color: white;
+    width: 300px;
+    background-color: darkblue;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+
+}
+
+.list p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    bottom: 7px;
+}
+
+.faicons{
+    margin: 0 5px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.delete:hover{
+    color: red;
+}
+
+.edit:hover{
+    color: cyan;
+}
+
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 18px;
+}
+
+.list p input:focus{
+    outline: none;
+}

@@ -25,7 +25,7 @@ handleInput(e){
   this.setState({
     currentItem:{
       text: e.target.value,
-      key:Date.now()
+      key: Date.now()
     }
   })
 }
@@ -58,8 +58,7 @@ setUpdate(text, key){
     }
   })
   this.setState({
-    items: items,
-    readOnly: false
+    items: items
   })
 }
   render () {
